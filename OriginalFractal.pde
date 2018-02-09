@@ -7,10 +7,10 @@ public void draw()
 {
   noStroke();
   fill(0);
-  triangle(0, 200, 200);
+  triangle1(0, 200, 200);
 }
 
-public void triangle(int x, int y, int len) 
+public void triangle1(int x, int y, int len) 
 {
   if (len <= 25)
   {
@@ -18,10 +18,10 @@ public void triangle(int x, int y, int len)
   }
   else
 {
-  triangle(x, y, len/2);
-  triangle(x+len/2, y, len/2);
-  triangle(x+len/4, y-len/2, len/2);
-  triangle(x, y, len-20);
+  triangle1(x, y, len/2);
+  triangle1(x+len/2, y, len/2);
+  triangle1(x+len/4, y-len/2, len/2);
+  triangle1(x, y, len-20);
 }
 }
   
