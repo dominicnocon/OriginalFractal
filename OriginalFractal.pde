@@ -1,13 +1,13 @@
 public void setup()
 {
-  size(400, 400);
+  size(200, 200);
   background(200);
 }
 public void draw()
 {
   noStroke();
   fill(0);
-  triangle(0, 400, 400);
+  triangle(0, 200, 200);
 }
 
 public void triangle(int x, int y, int len) 
