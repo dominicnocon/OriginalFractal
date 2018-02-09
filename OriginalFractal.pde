@@ -12,7 +12,7 @@ public void draw()
 
 public void triangle(int x, int y, int len) 
 {
-  if (len <= 10)
+  if (len <= 25)
   {
     triangle(x, y, x+len, y, x+len/2, y-len);
   }
